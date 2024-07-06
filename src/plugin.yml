@@ -1,0 +1,12 @@
+name: PreventTrample
+main: me.meibion.PreventTrample.Main
+version: 1.0
+author: Meibion
+api-version: 1.7.3
+permissions:
+  PreventTrample.Dry:
+    description: Prevent trampling of dry soil
+    default: op
+  PreventTrample.Wet:
+    description: Prevent trampling of watered soil
+    default: op
